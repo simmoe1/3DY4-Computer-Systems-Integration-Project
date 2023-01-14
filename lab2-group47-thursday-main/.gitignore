@@ -1,0 +1,38 @@
+
+# Ignore all files by default
+*
+
+# Apply exceptions to the following
+
+# Updates to .gitignore
+!.gitignore
+
+# Do not ignore exceptions from the following sub-folders
+!src/
+!model/
+!data/
+!doc/
+
+# The following file types are treated as exceptions
+
+# Markdown, PNG, text and pdf files for documentation
+!*.md
+!*.png
+!*.txt
+!*.pdf
+
+# Python files
+!*.py
+
+# C/C++/header files
+!*.cpp
+!*.cc
+!*.c
+!*.h
+!Makefile
+
+# Files used for drawing
+!*.gnuplot
+
+# Reference audio files as an exception
+!data/audio_test.wav
